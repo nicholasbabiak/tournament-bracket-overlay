@@ -1,0 +1,51 @@
+#app-base {
+	width: 1920px;
+	height: 1080px;
+	background-color: black;
+}
+
+#bracket {
+	position: absolute;
+	left: 10px;
+	top: 11px;
+	width: 1812px;
+}
+
+.highlight {
+	position: absolute;
+}
+
+p{
+	color: white;
+	position: absolute;
+	font-size: 4em;
+}
+
+#g-1 {
+	left: 133px;	top: 41px;
+	width: 430px;	height: 234px;
+}
+#g-2 {
+	left: 133px;	top: 281px;
+	width: 430px;	height: 234px;
+}
+#g-3 {
+	left: 521px;	top: 119px;
+	width: 430px;	height: 346px;
+}
+#g-4 {
+	left: 133px;	top: 714px;
+	width: 430px;	height: 261px;
+}
+#g-5 {
+	left: 133px;	top: 714px;
+	width: 430px;	height: 261px;
+}
+#g-6 {
+	left: 133px;	top: 714px;
+	width: 430px;	height: 261px;
+}
+#g-7 {
+	left: 133px;	top: 714px;
+	width: 430px;	height: 261px;
+}

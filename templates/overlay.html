@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SAM Control</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+		crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+	<form id="controlForm">
+	<div class="row m-0 p-0" id="app-base">
+		<img src="/4 Person Double Elimination Bracket Transparent.png" id="bracket"/>
+		<!-- Game 1 -->
+		<p class="g-1 seed1" id="g-1-h" style="left: 166px; top: 34px;">Seed 1?</p>
+		<p class="g-1 seed4" id="g-1-a" style="left: 166px; top: 161px;">Seed 4?</p>
+		<img src="/bracket game highlight.png" id="g-1" class="highlight" />
+		<!-- Game 2 -->
+		<p class="g-2 seed2" id="g-2-h" style="left: 166px; top: 274px;">Seed 2?</p>
+		<p class="g-2 seed3" id="g-2-a" style="left: 166px; top: 406px;">Seed 3?</p>
+		<img src="/bracket game highlight.png" id="g-2" class="highlight d-none" />
+		<!-- Game 3 -->
+		<p class="g-3" id="g-3-h" style="left: 558px; top: 113px;">Name</p>
+		<p class="g-3" id="g-3-a" style="left: 558px; top: 349px;">Name</p>
+		<img src="/bracket game highlight.png" id="g-3" class="highlight d-none" />
+		<!-- Game 4 -->
+		<p class="g-4" id="g-4-h" style="left: 166px; top: 706px;">Name</p>
+		<p class="g-4" id="g-4-a" style="left: 166px; top: 836px;">Name</p>
+		<img src="/bracket game highlight.png" id="g-4" class="highlight d-none" />
+	</div>
+	</form>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"
+		integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA=="
+		crossorigin="anonymous"></script>
+
+</body>
+</html>
