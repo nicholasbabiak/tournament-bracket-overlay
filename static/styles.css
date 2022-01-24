@@ -15,12 +15,14 @@
 	position: absolute;
 }
 
+/* All text */
 p{
 	color: white;
 	position: absolute;
 	font-size: 4em;
 }
 
+/* Current game highlights */
 #g-1 {
 	left: 133px;	top: 41px;
 	width: 430px;	height: 234px;
@@ -38,14 +40,14 @@ p{
 	width: 430px;	height: 261px;
 }
 #g-5 {
-	left: 133px;	top: 714px;
+	left: 516px;	top: 623px;
 	width: 430px;	height: 261px;
 }
 #g-6 {
-	left: 133px;	top: 714px;
-	width: 430px;	height: 261px;
+	left: 894px;	top: 216px;
+	width: 437px;	height: 586px;
 }
 #g-7 {
-	left: 133px;	top: 714px;
-	width: 430px;	height: 261px;
+	left: 1274px;	top: 433px;
+	width: 300px;	height: 498px;
 }
