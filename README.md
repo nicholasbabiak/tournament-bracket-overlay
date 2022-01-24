@@ -1,6 +1,7 @@
 # tournament-bracket-overlay
 Web based live stream overlay for a tournament
 
+![alt text](https://github.com/nicholasbabiak/tournament-bracket-overlay/blob/main/static/README_images/bracket-overlay-mid.png?raw=true)
 
 # Install
 1. Create config.py in the root of the application  with
